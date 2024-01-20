@@ -39,4 +39,12 @@ for (let i = 0; i < team.length; i++) {
     console.log(member.name)
     console.log(member.role)
     console.log(member.picture)
+
+    teamHTML.innerHTML += `<div class="card"> 
+    <figure><img src="./img/${member.picture}">
+    </figure>
+    <h3>${member.name}</h3>
+    <h5>${member.role}</h5> 
+    </div>
+    `
 }
