@@ -40,7 +40,7 @@ for (let i = 0; i < team.length; i++) {
     console.log(member.role)
     console.log(member.picture)
 
-    teamHTML.innerHTML += `<div class="card"> 
+    teamHTML.innerHTML += `<div class="card flex"> 
     <figure><img src="./img/${member.picture}">
     </figure>
     <h3>${member.name}</h3>

@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(23, 22, 22);
+    color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1075%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%26quot%3b%23SvgjsLinearGradient1076%26quot%3b)'%3e%3c/rect%3e%3cpath d='M1358.6853951584258 373.9739676863405L1257.533673270602 223.70165148800692 1185.6447098072724 364.7916864110138z' fill='rgba(4%2c 163%2c 158%2c 0.68)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M718.147518970445 189.7348723120146L655.211419369814 122.24416836930101 585.4434132560591 250.3936697416043z' fill='rgba(4%2c 163%2c 158%2c 0.68)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M295.07835484037446-59.11150693737427L256.4882838541026 95.66481399815986 411.2646047896367 134.25488498443178 449.8546757759086-20.521435951102376z' fill='rgba(4%2c 163%2c 158%2c 0.68)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M434.6302118693589-10.578284173049845L346.06367462423543 125.80222349709513 482.4441822943804 214.3687607422186 571.0107195395038 77.98825307207363z' fill='rgba(4%2c 163%2c 158%2c 0.68)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M72.95 376.8 a174.53 174.53 0 1 0 349.06 0 a174.53 174.53 0 1 0 -349.06 0z' fill='rgba(4%2c 163%2c 158%2c 0.68)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M708.63 525.62 a111.76 111.76 0 1 0 223.52 0 a111.76 111.76 0 1 0 -223.52 0z' fill='rgba(4%2c 163%2c 158%2c 0.68)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M939.85 417.45 a139.97 139.97 0 1 0 279.94 0 a139.97 139.97 0 1 0 -279.94 0z' fill='rgba(4%2c 163%2c 158%2c 0.68)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M387.66 202.71 a153.76 153.76 0 1 0 307.52 0 a153.76 153.76 0 1 0 -307.52 0z' fill='rgba(4%2c 163%2c 158%2c 0.68)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1075'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1076'%3e%3cstop stop-color='rgba(14%2c 25%2c 36%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 46%2c 105%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.flex {
+    display: flex;
+}
+
+main {
+    flex-direction: column;
+    margin: 100px auto;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#team {
+    margin: 0 auto;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: calc((100% / 4) - 60px);
+    gap: 15px;
+
+
+    border-radius: 16px;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 200px;
+}
